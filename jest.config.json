@@ -1,0 +1,8 @@
+{
+  "displayName": "unit-test",
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "bail": true,
+  "verbose": false,
+  "testMatch": ["**/*Test.ts"]
+}

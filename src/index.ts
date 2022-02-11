@@ -1,7 +1,8 @@
-import { router } from "./router"
-import Server from "./server"
+import { router } from "./app/router"
+import Server from "./app/server"
 
 /**
  * Create server
  */
-new Server(router).start()
+const server = new Server(router)
+server.start()
